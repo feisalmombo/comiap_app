@@ -1,0 +1,43 @@
+#progressPercent
+    {
+        position: absolute;
+        top: 85px;
+        left: 75px;
+        font-size: 30px;
+        z-index: 3;
+    }
+    #progressWrap
+    { 
+        display: inline-block;
+        padding: 5px;
+        /*background: #eeeeee;*/
+        position: relative;
+    }
+    #circleBg
+    {
+        position: absolute;
+        z-index: 0;
+        top: 28px;
+        left: 28px;
+        width: 126px;
+        height: 126px;
+        border: 15px solid #cecece;
+        border-radius: 100%;
+    }
+    #percentBg
+    {
+        position: absolute;
+        z-index: 0;
+        top: 42px;
+        left: 42px;
+        width: 125px;
+        height: 125px;
+        background: #e3ffe8;
+        border-radius: 100%;
+    }
+    #myCanvas
+    {
+        position: relative;
+        z-index: 1;
+        transform: rotate(-90deg);
+    }
